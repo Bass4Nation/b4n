@@ -1,0 +1,2 @@
+    // int modulo = 5%2; //restene etter at det siste tallet fyller opp det første tallet.(5%2 = 1)
+    // System.out.print(modulo);

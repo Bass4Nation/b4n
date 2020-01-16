@@ -1,0 +1,17 @@
+Oppgave 1.
+Java , er en kommando som kjører kompilert kode. Det vill si at kode som har blitt gjort om til maskin kode blir kjørt.
+
+Javac er kommandoen som kompilerer kode lesbar for mennesker til maskinkode så det er leslig for maskinen.
+
+Oppgave 2.
+JRE er en form for VM (virituel maskin), som tar maskinkoden og kjører koden utenfor windows men så vi brukere kan se hva som skjer.
+JDK er utviklerverktøyet man briuker for å laga java programmer. Det er spesifikt for java, det må tilpasses på maskinen man bruker slik at maskinen kan forstå java og kunne jobbe med JRE.
+
+Oppgave 3.
+En variabel er et scope som holder på en verdi i koden. Typ en string som holder på en bit med text, eller en int som holder på tall for eksempel.
+
+Oppgave 4.
+Klasse er en java fil som man kan ta tak i for å fullføre en handling/funskjon. De er veldig spesifikt og kan kalles av andre klasser. Klasser holder på verdier som kalles objekter. De objektene er som funskjoner eller variabler.
+
+Oppgave 5.
+En feil er at sum ligger inni løkken. Og sum har ingen start verdi, og kan ikke øke.
