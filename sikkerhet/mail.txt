@@ -1,0 +1,33 @@
+sende mail
+
+telenet
+---------------------------------------------------
+hal.hiof.no 25 
+---------------------------------------------------
+HELO meg.hiof.no
+MAIL FROM: kaptein.sabeltann@dyreparken.no
+RCPT TO: kristoss@hiof.no (Mottaker)
+DATA
+from: kaptein.sabeltann@dyreparken.no
+to: kristoss@hiof.no (Mottaker, må være deg selv, ellers mulig straff for forfalskning)
+subject: sdfsdfsdfhgsd
+sdfssdfsdfsdfsdf
+.
+QUIT
+-------------------------------------
+
+HELO meg.hiof.no
+MAIL FROM: kaptein.sabeltann@dyreparken.no
+RCPT TO: kristoss@hiof.no 
+DATA
+from: kaptein.sabeltann@dyreparken.no
+to: kristoss@hiof.no 
+subject: sdfsdfsdfhgsd
+sdfssdfsdfsdfsdf
+.
+QUIT
+
+
+----------------------
+Ikke send til Gmail. De har veldig bra sikkerhet for spam,
+og kan sperre IP addressen din ute.

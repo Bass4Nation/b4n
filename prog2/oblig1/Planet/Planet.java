@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Planet{
 
@@ -40,5 +41,17 @@ public class Planet{
 
     System.out.println("Planeten "+ navn + " har en radius på " + radius + " km og en gravitasjon på " + gravitasjon + " m/s^2");
   }
+
+  public void inputFelt(){
+    Scanner myObj = new Scanner(System.in);
+    String userName;
+
+// Enter username and press Enter
+    System.out.println("Enter username");
+    userName = myObj.nextLine();
+
+    System.out.println("Username is: " + userName);
+  }
+
 
 }

@@ -1,0 +1,6 @@
+CREATE TABLE patients (
+id INT NOT NULL AUTO_INCREMENT,
+lastName VARCHAR(45),
+firstName VARCHAR (45),
+doctorId INT,
+PRIMARY KEY (id));

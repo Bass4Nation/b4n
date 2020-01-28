@@ -8,6 +8,8 @@ public class Oppgave2_3 {
 
     mars.printInfoPlanet(); // Printer ut info om mars
     pluto.printInfoPlanet(); // Printer ut info om pluto
+    inputFelt();
+
   }
 
 }
