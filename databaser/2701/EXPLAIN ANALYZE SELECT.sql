@@ -1,0 +1,3 @@
+EXPLAIN ANALYZE SELECT * 
+FROM world
+WHERE name = "Sweden"

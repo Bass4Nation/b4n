@@ -39,8 +39,19 @@ public class Planet {
     public double rJ(){
         return radius/69911;
     }
+//-------------------------Utregning OPPG 2.5 ---------------------------------
+    public double surfaceGravity(){
+        return ((0.00000000006674*mass)/(radius*radius));
+    }
+//-------------------------Utregning OPPG 3.1 -------------------------------
 
-
+public double mE(){
+        return mass/5.972E24;
+}
+public double rE(){
+        return radius/6371;
+}
+//----------------------------------------------------------------------------
 
 
 

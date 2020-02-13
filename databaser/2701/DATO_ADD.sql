@@ -1,0 +1,3 @@
+SELECT *
+FROM transaksjoner
+WHERE DATE_ADD(dato,INTERVAL 7 DAY) > CURRENT_DATE();
