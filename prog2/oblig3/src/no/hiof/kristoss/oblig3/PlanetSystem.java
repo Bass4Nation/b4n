@@ -126,7 +126,8 @@ public class PlanetSystem {
             double formelAvstad = ((a * (1 - (Math.pow(e, 2))) / (1 + e * Math.cos(grader))));
             double km = formelAvstad * (kmAU / au);
 
-            double g = 9.81; //Gravitational constant. Et tall som ble funnet på nett. Har ikke nokk info for å lage den orginale formelen.
+//            double g = 9.81; //Gravitational constant. Et tall som ble funnet på nett. Har ikke nokk info for å lage den orginale formelen.
+            double g = currentPlanet.getSurfaceGravity(); //Gravitational constant. Et tall som ble funnet på nett. Har ikke nokk info for å lage den orginale formelen.
             double m = centerStar.getMass(); // Bruker massen til Stjernen.
             double r = km * 1000;   // Ganger med 1000 for å få m/s
             double formel = Math.sqrt(g * m) / r; // Svaret blir i m/s

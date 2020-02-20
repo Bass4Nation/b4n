@@ -56,7 +56,13 @@ public class Main {
         //og km/s. Det sto double distance i oppgaven, men tenker dette er mer logisk når man leste videre på oppgaven så ser det ut som
         // den vil heller ha grader.
 
+        // Tallene er ikke 100% like men tenker det har noe med hvordan oppgaven blir avrundet.
+        //Og at noen tall så ser det ut som at han har brukt oblig 2 tall, og de ikke er helt like de i oblig 3.
+        // Så var vanskelig å finne ut helt hvem kombo som gar blitt brukt overalt.
 
+
+        System.out.println("\n Skulle jeg ha videre utviklet denne så ville jeg ha prøvd å bruke scanner for \n" +
+                "å sette inn planet, grader, navn");
         System.out.println("---------------------------THE END -------------Kristoffer S Søderkvist---------");
 
     }

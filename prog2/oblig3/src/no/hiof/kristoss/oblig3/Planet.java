@@ -13,7 +13,7 @@ public class Planet extends NaturalSatellite{
 
 
         public double getSurfaceGravity() {
-        // g = GM / R^2
+        // g = GM / R^2AS
         return (6.67408E-11 * getMass()) / Math.pow(getRadiusInMeter(), 2);
     }
 
@@ -45,4 +45,5 @@ public class Planet extends NaturalSatellite{
                 getName(), getRadius(), getMass(), getName(), getCentralCelestialBody().getName(), getSemiMajorAxis(), getEccentricity(), getOrbitalPeriod() );
 
     }
+
 }
