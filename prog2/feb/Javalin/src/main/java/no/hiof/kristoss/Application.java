@@ -1,0 +1,41 @@
+package no.hiof.kristoss;
+
+import io.javalin.Javalin;
+import io.javalin.http.Context;
+import io.javalin.http.Handler;
+import io.javalin.plugin.rendering.vue.VueComponent;
+import no.hiof.kristoss.model.Dyr;
+import no.hiof.kristoss.model.HonningGrevling;
+import no.hiof.kristoss.model.Sjimpanse;
+import org.jetbrains.annotations.NotNull;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+public class Application {
+
+    public static void main(String[] args){
+        Javalin app = Javalin.create().start();
+
+        app.config.enableWebjars();
+
+        app.get("/", new VueComponent("hello-worlgd"));
+
+        app.get("/another-path", new VueComponent("another-component"));
+
+        app.get("/dyrepark/:dyrepark-id", new VueComponent("dyrepark-overview"));
+
+        app.get("/api/dyrepark/:dyrepark-id", new Handler() {
+            @Override
+            public void handle(@NotNull Context ctx) throws Exception {
+                ArrayList<Dyr> dyreliste = new ArrayList<>();
+                dyreliste.add(new Sjimpanse("Nils", 63));
+                dyreliste.add(new Sjimpanse("Frank", 59));
+
+                ctx.json(dyreliste);
+            }
+        });
+
+
+    }
+}
